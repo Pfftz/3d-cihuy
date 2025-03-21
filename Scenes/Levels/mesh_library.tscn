@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://cyovvol1okvrc" path="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/wall_doorway_dungeon_texture.png" id="3_6tinq"]
 [ext_resource type="Texture2D" uid="uid://dqw7h40jiff8b" path="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/wall_arched_dungeon_texture.png" id="4_g1cpt"]
 [ext_resource type="Texture2D" uid="uid://yvwncjy4pru0" path="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/wall_corner_dungeon_texture.png" id="5_1rwqm"]
-[ext_resource type="Texture2D" uid="uid://cega3f4646can" path="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/stairs_walled_dungeon_texture.png" id="6_0dq7r"]
+[ext_resource type="Texture2D" uid="uid://c85iwkawks3b4" path="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/stairs_walled_dungeon_texture.png" id="6_0dq7r"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_87egt"]
 resource_name = "texture"

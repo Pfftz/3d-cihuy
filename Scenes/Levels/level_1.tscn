@@ -33,4 +33,4 @@ environment = SubResource("Environment_74ttd")
 transform = Transform3D(1, 0, 0, 0, 0.769065, 0.639171, 0, -0.639171, 0.769065, 0, 4.1094, 0)
 
 [node name="Player" parent="." instance=ExtResource("2_ivugn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.18203, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
