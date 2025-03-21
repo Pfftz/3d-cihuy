@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://dmd60i21t81xt"]
+[gd_scene load_steps=7 format=3 uid="uid://dmd60i21t81xt"]
 
 [ext_resource type="MeshLibrary" uid="uid://dw6aei3hyumot" path="res://Scenes/Levels/library.tres" id="1_tybl5"]
 [ext_resource type="PackedScene" uid="uid://brlue161rtx1p" path="res://Scenes/player/player.tscn" id="2_ivugn"]
+[ext_resource type="PackedScene" uid="uid://wd6mpc8k1uj7" path="res://Scenes/Monster/skeleton_warrior.tscn" id="3_3mqfk"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0tt6y"]
 
@@ -33,4 +34,8 @@ environment = SubResource("Environment_74ttd")
 transform = Transform3D(1, 0, 0, 0, 0.769065, 0.639171, 0, -0.639171, 0.769065, 0, 4.1094, 0)
 
 [node name="Player" parent="." instance=ExtResource("2_ivugn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -6.79209)
+
+[node name="skeleton_warrior" parent="." node_paths=PackedStringArray("player") instance=ExtResource("3_3mqfk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.447206, 1.18506, 6.61246)
+player = NodePath("../Player")
