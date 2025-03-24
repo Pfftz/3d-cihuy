@@ -55,3 +55,22 @@ func _on_animation_tree_animation_finished(anim_name: StringName):
 
 func death():
 	self.queue_free()
+
+func hit(damage: int):
+	if !just_hit:
+		just_hit = true
+		get_node("just_hit").start()
+		health -= damage
+		if health < 0:
+			state_controller.change_state("Death")
+		#knockback
+		var tween = create_tween()
+		tween.tween_property(self, "global_position", global_position - (direction/1.5), 0.2)
+
+func _on_timer_timeout():
+	just_hit = false
+
+
+func _on_damage_detector_body_entered(body):
+	if body.is_in_group("Player"):
+		body.hit(damage)
