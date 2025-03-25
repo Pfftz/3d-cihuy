@@ -23,6 +23,10 @@ folder_colors={
 "res://Scripts/": "yellow"
 }
 
+[gui]
+
+theme/custom="uid://cys0j6wuj546k"
+
 [input]
 
 right={
