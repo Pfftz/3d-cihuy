@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://csnu8o0x00er0"]
+[gd_scene load_steps=2 format=3 uid="uid://ma2t7kio7vsj"]
 
-[ext_resource type="Script" path="res://Scripts/GUI/gameover_overlay.gd" id="1_qj281"]
+[ext_resource type="Script" uid="uid://bmxwa6kgfnuhv" path="res://Scripts/GUI/gameover_overlay.gd" id="1_qj281"]
 
 [node name="gameover_overlay" type="CanvasLayer"]
 process_mode = 3
