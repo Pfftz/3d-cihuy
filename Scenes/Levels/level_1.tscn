@@ -3,8 +3,8 @@
 [ext_resource type="MeshLibrary" uid="uid://dw6aei3hyumot" path="res://Scenes/Levels/library.tres" id="1_tybl5"]
 [ext_resource type="PackedScene" uid="uid://brlue161rtx1p" path="res://Scenes/player/player.tscn" id="2_ivugn"]
 [ext_resource type="PackedScene" uid="uid://wd6mpc8k1uj7" path="res://Scenes/Monster/skeleton_warrior.tscn" id="3_3mqfk"]
-[ext_resource type="PackedScene" uid="uid://csnu8o0x00er0" path="res://Scenes/player/gameover_overlay.tscn" id="4_iixi8"]
-[ext_resource type="PackedScene" uid="uid://bl5gqixxoxfpm" path="res://Scenes/player/gui.tscn" id="5_cyadu"]
+[ext_resource type="PackedScene" uid="uid://csnu8o0x00er0" path="res://Scenes/player/GUI/gameover_overlay.tscn" id="4_iixi8"]
+[ext_resource type="PackedScene" uid="uid://bl5gqixxoxfpm" path="res://Scenes/player/GUI/gui.tscn" id="5_cyadu"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0tt6y"]
 

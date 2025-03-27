@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://3m42o7784svg"]
+
+[ext_resource type="Script" uid="uid://by1fpyflmti0y" path="res://Scripts/player/GUI/profile.gd" id="1_ir71g"]
+
+[node name="profile" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_ir71g")
+
+[node name="stats_label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 192.0
+offset_right = 960.0
+offset_bottom = 384.0
+text = "jawa jawa jawa"
+horizontal_alignment = 1
+vertical_alignment = 1
